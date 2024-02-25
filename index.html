@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="style sheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- sheet link -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- sheet link Ends -->
+
+    <!-- Additional  Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap">
+
+    <!-- Links End  -->
+</head>
+
+<body>
+
+    <!-- header Starts -->
+    <Header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo">The Travelers</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <!-- <a href="Portfolio.html">Travels</a> -->
+                <a href="Destination.html">Destination</a>
+                <!-- <a href="Contact US.html">Contact Us</a> -->
+                <a href="About Us.html">About Us</a>
+                <a href="Contact US.html">contact us</a>
+
+
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </section>
+
+
+
+    </Header>
+
+    <!-- Header Ends -->
+
+    <div class="container home">
+        <section class="flex">
+            <form action="your_processing_script.php" method="post">
+
+                <h3>Search Your Tour</h3>
+
+                <p>Where to?</p>
+
+                <input type="text" name="location" required maxlength="50" placeholder="Enter Tour Location"
+                    class="box">
+
+                <p>When to?</p>
+
+                <input type="date" name="date" class="box" required>
+
+
+                <p>How Many?</p>
+
+
+                <input type="number" name="guests" min="1" max="10" maxlength="2" placeholder="Number of the Guest"
+                    class="box">
+
+                <input type="submit" value="search tour" name="search" class="btn">
+            </form>
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+
+    <!-- Js File attachment -->
+    <script src=" Script.js">
+    </script>
+</body>
+
+</html>
